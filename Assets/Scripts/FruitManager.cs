@@ -5,9 +5,18 @@ public class FruitManager : MonoBehaviour
 {
     public TMP_Text levelCleared;
     public GameObject transition;
+    public TMP_Text totalFruits;
+    public TMP_Text fruitsCollected;
+    private int totalFruitsInLevel;
+    void Start()
+    {
+        totalFruitsInLevel = transform.childCount;
+    }
     private void Update()
     {
         AllFruitCollected();
+        totalFruits.text = totalFruitsInLevel.ToString();
+        fruitsCollected.text = transform.childCount.ToString();
     }
     public void AllFruitCollected()
     {
