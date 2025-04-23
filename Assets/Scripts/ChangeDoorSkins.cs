@@ -7,7 +7,7 @@ public class ChangeDoorSkins : MonoBehaviour
     public GameObject player;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !inDoor)
         {
             skinsPanel.gameObject.SetActive(true);
             inDoor = true;
@@ -16,8 +16,24 @@ public class ChangeDoorSkins : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        skinsPanel.gameObject.SetActive(false);
-        inDoor = false;
+        //skinsPanel.gameObject.SetActive(false);
+        //inDoor = false;
+        // if (skinsPanel != null)
+        // {
+        //     skinsPanel.gameObject.SetActive(false);
+        // }
+        // else
+        // {
+        //     Debug.LogWarning("skinsPanel ya fue destruido.");
+        // }
+
+        // inDoor = false;
+
+        if (collision.CompareTag("Player") && inDoor)
+        {
+            skinsPanel.gameObject.SetActive(false);
+            inDoor = false;
+        }
 
     }
     public void SetPlayerFrog()

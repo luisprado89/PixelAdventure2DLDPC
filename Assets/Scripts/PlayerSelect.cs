@@ -3,15 +3,15 @@ using UnityEngine;
 public class PlayerSelect : MonoBehaviour
 {
     public enum Player { Frog, BlueMan, VirtualGuy, MaskDude };
+    public bool enabledSelectectPlayer;
     public Player playerSelected;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     public RuntimeAnimatorController[] playersController;
     public Sprite[] playersRenderer;
-    public bool enabledSelectectCharacter;
     void Start()
     {
-        if (!enabledSelectectCharacter)
+        if (!enabledSelectectPlayer)
         {
             ChangePlayerInMenu();
 
