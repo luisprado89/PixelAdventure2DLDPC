@@ -1,7 +1,6 @@
-using System.Collections;
 using UnityEngine;
 
-public class AIBasicMushroon : MonoBehaviour
+public class BeeEnemy : MonoBehaviour
 {
     public Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -20,7 +19,7 @@ public class AIBasicMushroon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(CheckEnemyMoving());
+
 
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, moveSpots[i].transform.position) < 0.1f)
@@ -43,24 +42,5 @@ public class AIBasicMushroon : MonoBehaviour
             }
         }
     }
-    IEnumerator CheckEnemyMoving()
-    {
-        actualPos = transform.position;
-        yield return new WaitForSeconds(0.5f);
-        if (transform.position.x > actualPos.x)
-        {
-            spriteRenderer.flipX = true;
-            animator.SetBool("Idle", false);
-        }
-        else if (transform.position.x < actualPos.x)
-        {
-            spriteRenderer.flipX = false;
-            animator.SetBool("Idle", false);
-        }
-        else if (transform.position.x == actualPos.x)
-        {
 
-            animator.SetBool("Idle", true);
-        }
-    }
 }

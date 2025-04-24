@@ -1,15 +1,14 @@
-using System.Collections;
 using UnityEngine;
 
-public class AIBasicMushroon : MonoBehaviour
+public class PlatformMove : MonoBehaviour
 {
-    public Animator animator;
-    public SpriteRenderer spriteRenderer;
+
+
     public float speed = 0.5F;
     private float waitTime;
     public float startWaitTime = 2;
     private int i = 0;
-    private Vector2 actualPos;
+
     public Transform[] moveSpots;
 
     void Start()
@@ -20,7 +19,7 @@ public class AIBasicMushroon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(CheckEnemyMoving());
+
 
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, moveSpots[i].transform.position) < 0.1f)
@@ -43,24 +42,13 @@ public class AIBasicMushroon : MonoBehaviour
             }
         }
     }
-    IEnumerator CheckEnemyMoving()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        actualPos = transform.position;
-        yield return new WaitForSeconds(0.5f);
-        if (transform.position.x > actualPos.x)
-        {
-            spriteRenderer.flipX = true;
-            animator.SetBool("Idle", false);
-        }
-        else if (transform.position.x < actualPos.x)
-        {
-            spriteRenderer.flipX = false;
-            animator.SetBool("Idle", false);
-        }
-        else if (transform.position.x == actualPos.x)
-        {
-
-            animator.SetBool("Idle", true);
-        }
+        collision.collider.transform.SetParent(transform);
     }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        collision.collider.transform.SetParent(null);
+    }
+
 }
