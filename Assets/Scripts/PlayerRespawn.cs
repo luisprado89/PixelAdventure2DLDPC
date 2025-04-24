@@ -11,7 +11,28 @@ public class PlayerRespawn : MonoBehaviour
 
     void Start()
     {
-        life = hearts.Length;
+        //life = hearts.Length;
+        //Esta es la version que nos da chatgpt
+        if (hearts != null)
+        {
+            life = hearts.Length;
+        }
+        else
+        {
+            Debug.LogWarning("Hearts array is not assigned in the Inspector.");
+            life = 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
         if (PlayerPrefs.GetFloat("CheckPointPositionX") != 0)
         {
             transform.position = (new Vector2(PlayerPrefs.GetFloat("CheckPointPositionX"), PlayerPrefs.GetFloat("CheckPointPositionY")));
