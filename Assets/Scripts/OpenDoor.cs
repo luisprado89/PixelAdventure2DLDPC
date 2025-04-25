@@ -7,6 +7,8 @@ public class OpenDoor : MonoBehaviour
     public TMP_Text text;
     public string levelName;
     private bool inDoor = false;
+    private float doorTime = 3;
+    private float startTime = 3;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,24 +16,44 @@ public class OpenDoor : MonoBehaviour
         {
             text.gameObject.SetActive(true);
             inDoor = true;
+
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // text.gameObject.SetActive(false);
-        // inDoor = false;
 
-        //Version que me da CHatgpt
-        if (text != null)
+        // Verifica si el objeto que sale es el jugador
+        if (collision.gameObject.CompareTag("Player"))
         {
-            text.gameObject.SetActive(false);
+            // Desactiva el texto cuando el jugador sale
+            if (text != null)
+            {
+                text.gameObject.SetActive(false);
+            }
+            inDoor = false;
+            doorTime = startTime;  // Reinicia el temporizador para la puerta
         }
-        inDoor = false;
 
     }
     private void Update()
     {
+        //
+        if (inDoor)
+        {
+            doorTime -= Time.deltaTime;
+        }
+
+
+
+
+        if (doorTime <= 0)
+        {
+            SceneManager.LoadScene(levelName);
+        }
+
+
+
         if (inDoor && Input.GetKey("e"))
         {
             SceneManager.LoadScene(levelName);

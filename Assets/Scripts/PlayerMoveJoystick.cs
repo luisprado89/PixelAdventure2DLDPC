@@ -22,13 +22,9 @@ public class PlayerMoveJoystick : MonoBehaviour
     public Animator animator;
     void Start()
     {
-        //rb2D = GetComponent<Rigidbody2D>();  //Esto es sin chatGPT como estaba antes
-
-
         //Esta correccion me la dio chatgpt
         rb2D = GetComponent<Rigidbody2D>();
-        //horizontalMove = joystick.Horizontal * runSpeedHorizontal;
-        //rb2D.linearVelocity = new Vector2(horizontalMove * runSpeed, rb2D.linearVelocity.y);
+
     }
     private void Update()
     {
@@ -74,7 +70,6 @@ public class PlayerMoveJoystick : MonoBehaviour
     void FixedUpdate()
     {
         horizontalMove = joystick.Horizontal * runSpeedHorizontal;
-        //transform.position += new Vector3(horizontalMove, 0, 0) * Time.deltaTime * runSpeed;
         rb2D.linearVelocity = new Vector2(horizontalMove * runSpeed, rb2D.linearVelocity.y);
 
     }
@@ -95,4 +90,21 @@ public class PlayerMoveJoystick : MonoBehaviour
             }
         }
     }
+    // En el script del jugador para no tener problema de que se pierda la animacion y el salto al entrar en contacto con las puertas del menu
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("OpenDoor"))
+        {
+            Debug.Log("Entró en el trigger de la puerta");
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("OpenDoor"))
+        {
+            Debug.Log("Salió del trigger de la puerta");
+        }
+    }
+
 }

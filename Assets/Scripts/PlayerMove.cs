@@ -100,4 +100,21 @@ public class PlayerMove : MonoBehaviour
 
         }
     }
+    // En el script del jugador para no tener problema de que se pierda la animacion y el salto al entrar en contacto con las puertas del menu
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("OpenDoor"))
+        {
+            Debug.Log("Entró en el trigger de la puerta");
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("OpenDoor"))
+        {
+            Debug.Log("Salió del trigger de la puerta");
+        }
+    }
+
 }
