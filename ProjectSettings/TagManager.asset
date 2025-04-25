@@ -43,6 +43,9 @@ TagManager:
   - name: Background
     uniqueID: 1757913929
     locked: 0
+  - name: Beforeworld
+    uniqueID: 2227446497
+    locked: 0
   - name: world
     uniqueID: 2419785635
     locked: 0

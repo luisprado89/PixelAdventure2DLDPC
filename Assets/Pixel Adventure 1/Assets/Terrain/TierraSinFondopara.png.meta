@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: 2b5c9393c265cc54b9fc6a69b32c0810
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1862863102529708416
+    second: TierraSinFondopara_0
+  - first:
+      213: -1474676767758484110
+    second: TierraSinFondopara_1
+  - first:
+      213: 9001515762776064504
+    second: TierraSinFondopara_2
+  - first:
+      213: -6471784331784949330
+    second: TierraSinFondopara_3
+  - first:
+      213: -2672179377807502190
+    second: TierraSinFondopara_4
+  - first:
+      213: 9139676921022523678
+    second: TierraSinFondopara_5
+  - first:
+      213: -5840984882032724133
+    second: TierraSinFondopara_6
+  - first:
+      213: 8268305348375361183
+    second: TierraSinFondopara_7
+  - first:
+      213: -4333991892714010111
+    second: TierraSinFondopara_8
+  - first:
+      213: 3641674911498489800
+    second: TierraSinFondopara_9
+  - first:
+      213: 2079147285144820116
+    second: TierraSinFondopara_10
+  - first:
+      213: -5663805216105602443
+    second: TierraSinFondopara_11
+  - first:
+      213: 4041199125001388778
+    second: TierraSinFondopara_12
+  - first:
+      213: -694722156073081099
+    second: TierraSinFondopara_13
+  - first:
+      213: 3408454690005063323
+    second: TierraSinFondopara_14
+  - first:
+      213: -1755364787108516526
+    second: TierraSinFondopara_15
+  - first:
+      213: -2531237050722556831
+    second: TierraSinFondopara_16
+  - first:
+      213: -4019456278873653021
+    second: TierraSinFondopara_17
+  - first:
+      213: 2027300623863201674
+    second: TierraSinFondopara_18
+  - first:
+      213: 4946762986811360398
+    second: TierraSinFondopara_19
+  - first:
+      213: -5711073283563489791
+    second: TierraSinFondopara_20
+  - first:
+      213: -4164174925000233655
+    second: TierraSinFondopara_21
+  - first:
+      213: 4960636756922864232
+    second: TierraSinFondopara_22
+  - first:
+      213: -6454938157565605169
+    second: TierraSinFondopara_23
+  - first:
+      213: -3352705150198549418
+    second: TierraSinFondopara_24
+  - first:
+      213: -8864033584562558092
+    second: TierraSinFondopara_25
+  - first:
+      213: 4704408206307309923
+    second: TierraSinFondopara_26
+  - first:
+      213: 6062259413567055030
+    second: TierraSinFondopara_27
+  - first:
+      213: -4799420622769698291
+    second: TierraSinFondopara_28
+  - first:
+      213: -5395159221477516157
+    second: TierraSinFondopara_29
+  - first:
+      213: 1850010553527191202
+    second: TierraSinFondopara_30
+  - first:
+      213: -4694111012192300302
+    second: TierraSinFondopara_31
+  - first:
+      213: 6757565187764640517
+    second: TierraSinFondopara_32
+  - first:
+      213: 5738198633677538259
+    second: TierraSinFondopara_33
+  - first:
+      213: 7939860338071768973
+    second: TierraSinFondopara_34
+  - first:
+      213: -2607289178809373162
+    second: TierraSinFondopara_35
+  - first:
+      213: -8490005306842990486
+    second: TierraSinFondopara_36
+  - first:
+      213: 5154201666537731718
+    second: TierraSinFondopara_37
+  - first:
+      213: -3047349266943001243
+    second: TierraSinFondopara_38
+  - first:
+      213: 8174246719902715317
+    second: TierraSinFondopara_39
+  - first:
+      213: 1212819521913018199
+    second: TierraSinFondopara_40
+  - first:
+      213: -5878615862956625097
+    second: TierraSinFondopara_41
+  - first:
+      213: -849971554912526993
+    second: TierraSinFondopara_42
+  - first:
+      213: -8694843196238426036
+    second: TierraSinFondopara_43
+  - first:
+      213: -2714068770044193727
+    second: TierraSinFondopara_44
+  - first:
+      213: -5590561164675638989
+    second: TierraSinFondopara_45
+  - first:
+      213: -2091753565748463576
+    second: TierraSinFondopara_46
+  - first:
+      213: -7769984063567065888
+    second: TierraSinFondopara_47
+  - first:
+      213: -2479176577131367481
+    second: TierraSinFondopara_48
+  - first:
+      213: 713832138567240656
+    second: TierraSinFondopara_49
+  - first:
+      213: 7452554001079040092
+    second: TierraSinFondopara_50
+  - first:
+      213: -1343142349890421322
+    second: TierraSinFondopara_51
+  - first:
+      213: 4291560705844156641
+    second: TierraSinFondopara_52
+  - first:
+      213: 1444188952759965615
+    second: TierraSinFondopara_53
+  - first:
+      213: 553184782664415593
+    second: TierraSinFondopara_54
+  - first:
+      213: -2122588979898490955
+    second: TierraSinFondopara_55
+  - first:
+      213: -6754659285881559873
+    second: TierraSinFondopara_56
+  - first:
+      213: -8247128475554387174
+    second: TierraSinFondopara_57
+  - first:
+      213: -1511172731107989954
+    second: TierraSinFondopara_58
+  - first:
+      213: -8547267508163763044
+    second: TierraSinFondopara_59
+  - first:
+      213: -5542313044194131154
+    second: TierraSinFondopara_60
+  - first:
+      213: 4230746926274802781
+    second: TierraSinFondopara_61
+  - first:
+      213: 2934769226869590667
+    second: TierraSinFondopara_62
+  - first:
+      213: 3882963579415048512
+    second: TierraSinFondopara_63
+  - first:
+      213: -1074033406781621095
+    second: TierraSinFondopara_64
+  - first:
+      213: 2298385776146061124
+    second: TierraSinFondopara_65
+  - first:
+      213: -9081799556278235147
+    second: TierraSinFondopara_66
+  - first:
+      213: 8980936354687018684
+    second: TierraSinFondopara_67
+  - first:
+      213: 3261877329655287517
+    second: TierraSinFondopara_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TierraSinFondopara_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 104
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08127733f183ad910800000000000000
+      internalID: 1862863102529708416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 894
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dfb3bfa45e88be0800000000000000
+      internalID: -1474676767758484110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 954
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1c858e4eecbec70800000000000000
+      internalID: 9001515762776064504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 954
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1f401707a9f26a0800000000000000
+      internalID: -6471784331784949330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 955
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294d8a183038aead0800000000000000
+      internalID: -2672179377807502190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 963
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19226f4cb7a6de70800000000000000
+      internalID: 9139676921022523678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 952
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5733085237a0fea0800000000000000
+      internalID: -5840984882032724133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 998
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96306038ebeeb270800000000000000
+      internalID: 8268305348375361183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 959
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10acb5706519ad3c0800000000000000
+      internalID: -4333991892714010111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_9
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 962
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfc15f9904d98230800000000000000
+      internalID: 3641674911498489800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 962
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49956c6a07d9adc10800000000000000
+      internalID: 2079147285144820116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_11
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 962
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57265010a2f1661b0800000000000000
+      internalID: -5663805216105602443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_12
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 961
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c3586139351830800000000000000
+      internalID: 4041199125001388778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_13
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 961
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6abad31e9db56f0800000000000000
+      internalID: -694722156073081099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_14
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 967
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9614c65b734d4f20800000000000000
+      internalID: 3408454690005063323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_15
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 881
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dea25c601b3a7e0800000000000000
+      internalID: -1755364787108516526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 885
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164ef5d305d3fdcd0800000000000000
+      internalID: -2531237050722556831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 896
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c5837fc50838c0800000000000000
+      internalID: -4019456278873653021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 897
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f3b422d2b622c10800000000000000
+      internalID: 2027300623863201674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_19
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 897
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8401f83abe66a440800000000000000
+      internalID: 4946762986811360398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_20
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 895
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10679fe6b113eb0b0800000000000000
+      internalID: -5711073283563489791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 898
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94da5cce7f0e536c0800000000000000
+      internalID: -4164174925000233655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_22
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 899
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862122c09d8b7d440800000000000000
+      internalID: 4960636756922864232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_23
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 899
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca003702f37b66a0800000000000000
+      internalID: -6454938157565605169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_24
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 898
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654fac5ed6cc871d0800000000000000
+      internalID: -3352705150198549418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_25
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 898
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b24032b60acf480800000000000000
+      internalID: -8864033584562558092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_26
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 903
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369316fa65a694140800000000000000
+      internalID: 4704408206307309923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 111
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4aee141d8712450800000000000000
+      internalID: 6062259413567055030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 741
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 65, y: 0, z: 0, w: 63}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ac02c3f58056db0800000000000000
+      internalID: -4799420622769698291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_29
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 741
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 67, y: 0, z: 0, w: 62}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cd829d54b8025b0800000000000000
+      internalID: -5395159221477516157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 739
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 65, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a646b1fbce8ca910800000000000000
+      internalID: 1850010553527191202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_31
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 739
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 69, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f25706a7ea2bdeb0800000000000000
+      internalID: -4694111012192300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_32
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 741
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 62, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bd1433cb1b7cd50800000000000000
+      internalID: 6757565187764640517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_33
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 739
+        width: 76
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d34bfa414d22af40800000000000000
+      internalID: 5738198633677538259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 111
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f0bf809ec003e60800000000000000
+      internalID: 7939860338071768973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_35
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 592
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ee85e4e4c01dbd0800000000000000
+      internalID: -2607289178809373162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 592
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 67, y: 64, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a683178c7217d2a80800000000000000
+      internalID: -8490005306842990486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 593
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68635ba8b17678740800000000000000
+      internalID: 5154201666537731718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_38
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 592
+        width: 133
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56db05dbcf3a5b5d0800000000000000
+      internalID: -3047349266943001243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_39
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 593
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd043e2512c07170800000000000000
+      internalID: 8174246719902715317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_40
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 592
+        width: 76
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757d84cedecc4d010800000000000000
+      internalID: 1212819521913018199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 110
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 56, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7337e75d406fa6ea0800000000000000
+      internalID: -5878615862956625097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 445
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 67}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d9048cf5b4434f0800000000000000
+      internalID: -849971554912526993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 445
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 68, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c409c762e26b55780800000000000000
+      internalID: -8694843196238426036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_44
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 445
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144d88955d0b55ad0800000000000000
+      internalID: -2714068770044193727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_45
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 444
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3391a64ad365a62b0800000000000000
+      internalID: -5590561164675638989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_46
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 444
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 61, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828f7ebe63998f2e0800000000000000
+      internalID: -2091753565748463576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_47
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 445
+        width: 77
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec83ac49a87b2490800000000000000
+      internalID: -7769984063567065888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 112
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 57, y: 0, z: 0, w: 62}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3bd90d902389dd0800000000000000
+      internalID: -2479176577131367481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 301
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 63}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbce884c8a08e900800000000000000
+      internalID: 713832138567240656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_50
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 300
+        width: 135
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c587bbfe06acc6760800000000000000
+      internalID: 7452554001079040092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_51
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 301
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 63}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd7ff726233c5de0800000000000000
+      internalID: -1343142349890421322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_52
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 301
+        width: 154
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 78, y: 0, z: 0, w: 61}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e89ddb69bfae8b30800000000000000
+      internalID: 4291560705844156641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_53
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 301
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 63}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa71dcd633aca0410800000000000000
+      internalID: 1444188952759965615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_54
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 301
+        width: 77
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9693dd101ae4da700800000000000000
+      internalID: 553184782664415593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfddf8919c0b82e0800000000000000
+      internalID: -2122588979898490955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_56
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 153
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 66, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46c3eca21a242a0800000000000000
+      internalID: -6754659285881559873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_57
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 153
+        width: 135
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 67, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b629db8505c8d80800000000000000
+      internalID: -8247128475554387174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 153
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e362d08586c370be0800000000000000
+      internalID: -1511172731107989954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_59
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 153
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 0, z: 0, w: 63}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9429a79c71026980800000000000000
+      internalID: -8547267508163763044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_60
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 153
+        width: 127
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 0, w: 65}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e238bc696afb513b0800000000000000
+      internalID: -5542313044194131154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_61
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 153
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d547f2bf9e1a6ba30800000000000000
+      internalID: 4230746926274802781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a4f4110156ab820800000000000000
+      internalID: 2934769226869590667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_63
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 9
+        width: 130
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04130da7dce03e530800000000000000
+      internalID: 3882963579415048512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_64
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 9
+        width: 134
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cf0e79e444811f0800000000000000
+      internalID: -1074033406781621095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_65
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 8
+        width: 131
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 66, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4471fff9fa185ef10800000000000000
+      internalID: 2298385776146061124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_66
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 8
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 68, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff4cb6cb67f6f180800000000000000
+      internalID: -9081799556278235147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_67
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 8
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 63, y: 0, z: 0, w: 64}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6e2831802b2ac70800000000000000
+      internalID: 8980936354687018684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TierraSinFondopara_68
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 10
+        width: 75
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 66}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec00f2624844d20800000000000000
+      internalID: 3261877329655287517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e8b735fc4fca1d408ab209b6322e1bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TierraSinFondopara_0: 1862863102529708416
+      TierraSinFondopara_1: -1474676767758484110
+      TierraSinFondopara_10: 2079147285144820116
+      TierraSinFondopara_11: -5663805216105602443
+      TierraSinFondopara_12: 4041199125001388778
+      TierraSinFondopara_13: -694722156073081099
+      TierraSinFondopara_14: 3408454690005063323
+      TierraSinFondopara_15: -1755364787108516526
+      TierraSinFondopara_16: -2531237050722556831
+      TierraSinFondopara_17: -4019456278873653021
+      TierraSinFondopara_18: 2027300623863201674
+      TierraSinFondopara_19: 4946762986811360398
+      TierraSinFondopara_2: 9001515762776064504
+      TierraSinFondopara_20: -5711073283563489791
+      TierraSinFondopara_21: -4164174925000233655
+      TierraSinFondopara_22: 4960636756922864232
+      TierraSinFondopara_23: -6454938157565605169
+      TierraSinFondopara_24: -3352705150198549418
+      TierraSinFondopara_25: -8864033584562558092
+      TierraSinFondopara_26: 4704408206307309923
+      TierraSinFondopara_27: 6062259413567055030
+      TierraSinFondopara_28: -4799420622769698291
+      TierraSinFondopara_29: -5395159221477516157
+      TierraSinFondopara_3: -6471784331784949330
+      TierraSinFondopara_30: 1850010553527191202
+      TierraSinFondopara_31: -4694111012192300302
+      TierraSinFondopara_32: 6757565187764640517
+      TierraSinFondopara_33: 5738198633677538259
+      TierraSinFondopara_34: 7939860338071768973
+      TierraSinFondopara_35: -2607289178809373162
+      TierraSinFondopara_36: -8490005306842990486
+      TierraSinFondopara_37: 5154201666537731718
+      TierraSinFondopara_38: -3047349266943001243
+      TierraSinFondopara_39: 8174246719902715317
+      TierraSinFondopara_4: -2672179377807502190
+      TierraSinFondopara_40: 1212819521913018199
+      TierraSinFondopara_41: -5878615862956625097
+      TierraSinFondopara_42: -849971554912526993
+      TierraSinFondopara_43: -8694843196238426036
+      TierraSinFondopara_44: -2714068770044193727
+      TierraSinFondopara_45: -5590561164675638989
+      TierraSinFondopara_46: -2091753565748463576
+      TierraSinFondopara_47: -7769984063567065888
+      TierraSinFondopara_48: -2479176577131367481
+      TierraSinFondopara_49: 713832138567240656
+      TierraSinFondopara_5: 9139676921022523678
+      TierraSinFondopara_50: 7452554001079040092
+      TierraSinFondopara_51: -1343142349890421322
+      TierraSinFondopara_52: 4291560705844156641
+      TierraSinFondopara_53: 1444188952759965615
+      TierraSinFondopara_54: 553184782664415593
+      TierraSinFondopara_55: -2122588979898490955
+      TierraSinFondopara_56: -6754659285881559873
+      TierraSinFondopara_57: -8247128475554387174
+      TierraSinFondopara_58: -1511172731107989954
+      TierraSinFondopara_59: -8547267508163763044
+      TierraSinFondopara_6: -5840984882032724133
+      TierraSinFondopara_60: -5542313044194131154
+      TierraSinFondopara_61: 4230746926274802781
+      TierraSinFondopara_62: 2934769226869590667
+      TierraSinFondopara_63: 3882963579415048512
+      TierraSinFondopara_64: -1074033406781621095
+      TierraSinFondopara_65: 2298385776146061124
+      TierraSinFondopara_66: -9081799556278235147
+      TierraSinFondopara_67: 8980936354687018684
+      TierraSinFondopara_68: 3261877329655287517
+      TierraSinFondopara_7: 8268305348375361183
+      TierraSinFondopara_8: -4333991892714010111
+      TierraSinFondopara_9: 3641674911498489800
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
