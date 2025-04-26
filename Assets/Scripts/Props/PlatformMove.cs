@@ -48,7 +48,14 @@ public class PlatformMove : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        collision.collider.transform.SetParent(null);
+        //collision.collider.transform.SetParent(null);
+        if (collision.collider != null && collision.collider.gameObject.activeInHierarchy)
+        {
+            if (collision.collider.transform.parent == transform)
+            {
+                collision.collider.transform.SetParent(null);
+            }
+        }
     }
 
 }
