@@ -11,9 +11,9 @@ public class FruitCollected : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
 
-
+            clip.Play(); // Reproduce el sonido antes de destruir el objeto
             Destroy(gameObject, 0.5f);
-            clip.Play();
+            //clip.Play();
         }
     }
 
