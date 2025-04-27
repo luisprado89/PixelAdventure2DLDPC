@@ -1,112 +1,32 @@
-// using UnityEngine;
-// using UnityEngine.SceneManagement;
-// using UnityEngine.Audio;
-
-// public class UIManager : MonoBehaviour
-// {
-//     public AudioSource clip;
-//     public GameObject optionsPanel;
-//     public GameObject creditsPanel; // Nuevo panel de créditos
-
-//     private bool isMuted = false; // Estado de mute
-//     public GameObject muteButton; // Botón que indica que el audio está en mute
-
-//     private void Start()
-//     {
-//         // Asegurarse de que el botón de mute refleje el estado inicial de isMuted
-//         muteButton.SetActive(isMuted);
-//         AudioListener.volume = isMuted ? 0 : 1; // Configurar el volumen inicial según isMuted
-//     }
-//     public void OptionsPanel()
-//     {
-//         Time.timeScale = 0; // Para parar el tiempo
-//         optionsPanel.SetActive(true); // Mostrar el panel de opciones
-//         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
-//     }
-
-//     public void Return()
-//     {
-//         Time.timeScale = 1; // Para activar el tiempo
-//         optionsPanel.SetActive(false); // Ocultar el panel de opciones
-//         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
-//     }
-
-//     public void ShowCredits()
-//     {
-//         optionsPanel.SetActive(false); // Ocultar el panel de opciones
-//         creditsPanel.SetActive(true);  // Mostrar el panel de créditos
-//     }
-
-//     public void HideCredits()
-//     {
-//         creditsPanel.SetActive(false); // Ocultar el panel de créditos
-//         optionsPanel.SetActive(true);  // Mostrar el panel de opciones
-//         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
-//     }
-
-//     public void AnotherOptions()
-//     {
-//         // Sound
-//         // Graphics
-//     }
-
-//     public void GoMainMenu()
-//     {
-//         Time.timeScale = 1; // Para activar el tiempo
-//         SceneManager.LoadScene("MainMenu");
-//     }
-
-//     public void QuitGame()
-//     { // Esto solo va a funcionar cuando este el ejecutable no dentro de unity
-//         Application.Quit();
-//     }
-
-//     public void PlaySoundButoon()
-//     {
-//         clip.Play();
-//     }
-
-//     public void ToggleMute()
-//     {
-//         isMuted = !isMuted; // Alternar el estado de mute
-//         AudioListener.volume = isMuted ? 0 : 1; // Silenciar o activar el sonido
-//         muteButton.SetActive(isMuted); // Mostrar el botón si está en mute, ocultarlo si no
-
-//         // Guardar el estado de mute en PlayerPrefs
-//         PlayerPrefs.SetInt("IsMuted", isMuted ? 1 : 0);
-//         PlayerPrefs.Save();
-//     }
-// }
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Clase que gestiona la interfaz de usuario del juego, incluyendo opciones, créditos y sonido
 public class UIManager : MonoBehaviour
 {
-    public GameObject optionsPanel;
-    public GameObject creditsPanel; // Nuevo panel de créditos
-
-    private bool isMuted = false; // Estado de mute
-    public GameObject muteButton; // Botón que indica que el audio está en mute
+    public GameObject optionsPanel; // Panel de opciones del juego
+    public GameObject creditsPanel; // Panel de créditos
+    private bool isMuted = false; // Estado de mute (silencio)
+    public GameObject muteButton; // Botón que indica si el audio está en mute
 
     private void Start()
     {
-        // Asegurarse de que el botón de mute refleje el estado inicial de isMuted
-        isMuted = PlayerPrefs.GetInt("IsMuted", 0) == 1; // Recuperar el estado de mute desde PlayerPrefs
-        muteButton.SetActive(isMuted);
-        AudioListener.volume = isMuted ? 0 : 1; // Configurar el volumen inicial según isMuted
+        // Recuperar el estado de mute desde PlayerPrefs y configurarlo al iniciar
+        isMuted = PlayerPrefs.GetInt("IsMuted", 0) == 1; // 1 significa mute, 0 significa sonido activo
+        muteButton.SetActive(isMuted); // Actualizar el botón de mute según el estado
+        AudioListener.volume = isMuted ? 0 : 1; // Configurar el volumen inicial según el estado de mute
     }
 
     public void OptionsPanel()
     {
-        Time.timeScale = 0; // Para parar el tiempo
+        Time.timeScale = 0; // Pausar el tiempo del juego
         optionsPanel.SetActive(true); // Mostrar el panel de opciones
         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
     }
 
     public void Return()
     {
-        Time.timeScale = 1; // Para activar el tiempo
+        Time.timeScale = 1; // Reanudar el tiempo del juego
         optionsPanel.SetActive(false); // Ocultar el panel de opciones
         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
     }
@@ -114,36 +34,35 @@ public class UIManager : MonoBehaviour
     public void ShowCredits()
     {
         optionsPanel.SetActive(false); // Ocultar el panel de opciones
-        creditsPanel.SetActive(true);  // Mostrar el panel de créditos
+        creditsPanel.SetActive(true); // Mostrar el panel de créditos
     }
 
     public void HideCredits()
     {
         creditsPanel.SetActive(false); // Ocultar el panel de créditos
-        optionsPanel.SetActive(true);  // Mostrar el panel de opciones
+        optionsPanel.SetActive(true); // Mostrar el panel de opciones
         muteButton.SetActive(isMuted); // Actualizar el estado del botón de mute
     }
 
     public void AnotherOptions()
     {
-        // Sound
-        // Graphics
+        // Espacio reservado para futuras opciones (sonido, gráficos, etc.)
     }
 
     public void GoMainMenu()
     {
-        Time.timeScale = 1; // Para activar el tiempo
-        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1; // Reanudar el tiempo del juego
+        SceneManager.LoadScene("MainMenu"); // Cargar la escena del menú principal
     }
 
     public void QuitGame()
     {
-        Application.Quit(); // Esto solo funciona en el ejecutable, no dentro de Unity
+        Application.Quit(); // Salir del juego (solo funciona en el ejecutable, no en Unity)
     }
 
     public void PlaySoundButton()
     {
-        // Reproducir el sonido del botón desde el GameAudioManager
+        // Reproducir el sonido del botón utilizando el GameAudioManager
         GameAudioManager.Instance.PlayButtonClickSound();
     }
 
@@ -151,10 +70,10 @@ public class UIManager : MonoBehaviour
     {
         isMuted = !isMuted; // Alternar el estado de mute
         AudioListener.volume = isMuted ? 0 : 1; // Silenciar o activar el sonido
-        muteButton.SetActive(isMuted); // Mostrar el botón si está en mute, ocultarlo si no
+        muteButton.SetActive(isMuted); // Actualizar el botón de mute según el estado
 
-        // Guardar el estado de mute en PlayerPrefs
+        // Guardar el estado de mute en PlayerPrefs para persistencia
         PlayerPrefs.SetInt("IsMuted", isMuted ? 1 : 0);
-        PlayerPrefs.Save();
+        PlayerPrefs.Save(); // Guardar los cambios en PlayerPrefs
     }
 }

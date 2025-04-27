@@ -3848,6 +3848,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2704729232152659604, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570806369990298554, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4777222809685974095, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
       propertyPath: muteButton
       value: 
@@ -3931,6 +3939,26 @@ PrefabInstance:
     - target: {fileID: 5701034518957180938, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338633670070229282, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
+      propertyPath: m_text
+      value: "Cr\xE9ditos\r\n\r\nDesarrollo del juego:\r\nRealizado por Luis Darwin
+        Prado Cisneros.\r\n\r\nInspiraci\xF3n y aprendizaje:\r\nGracias a los videotutoriales
+        de LuisCanary.\r\n\r\nAssets utilizados:\r\nRecursos descargados de Unity
+        Asset Store.\r\n\r\n    Pixel Adventure 1 y Pixel Adventure 2 de Ansimuz.\r\n\r\nEdici\xF3n
+        y creaci\xF3n de im\xE1genes:\r\nEdici\xF3n de sprites y assets con Paint.NET
+        y Piskel.\r\n\r\n    Generaci\xF3n de im\xE1genes asistida por IA.\r\n\r\nSonido:\r\nEfectos
+        de sonido extra\xEDdos de los videos de LuisCanary.\r\n\r\n    M\xFAsica
+        y sonidos ambientados para mejorar la experiencia de juego.\r\n\r\nProgramaci\xF3n
+        y debug:\r\nDebugging de c\xF3digo y mejoras propias.\r\n\r\nAdaptaciones
+        t\xE9cnicas:\r\nDebido a que los tutoriales originales fueron realizados
+        en Unity 2019, fue necesario actualizar y modificar varias propiedades, m\xE9todos
+        y estructuras de c\xF3digo para versiones m\xE1s recientes de Unity.\r\nSe
+        resolvieron errores como NullReferenceException, se aplicaron patrones como
+        Singleton y se ajustaron varias funcionalidades para asegurar el correcto
+        funcionamiento del juego.\r\n\r\nAgradecimientos especiales:\r\nA todos quienes
+        apoyan el desarrollo indie.\r\n\r\n    A quienes crean contenido educativo
+        y comparten su conocimiento."
       objectReference: {fileID: 0}
     - target: {fileID: 6935938833700994890, guid: 535faa8b7a7937b438b6d5d25db8fd76, type: 3}
       propertyPath: m_Name
@@ -4434,6 +4462,14 @@ PrefabInstance:
     - target: {fileID: 3925101510184093169, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932746909389972065, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564614716878926084, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12382,7 +12418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1312289352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15080,71 +15116,6 @@ MonoBehaviour:
   doorInstructionText: {fileID: 1057778868}
   doorTimerText: {fileID: 1132682722}
   levelName: Level2
---- !u!1001 &1903345834
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636806564254239375, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3486743073992391414, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 3486743073992391414, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5736514930460113888, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7831aa06b15474d46b197fb82ee63b88, type: 3}
 --- !u!1 &1905059099
 GameObject:
   m_ObjectHideFlags: 0
@@ -16724,7 +16695,6 @@ SceneRoots:
   - {fileID: 1023848652}
   - {fileID: 676568590}
   - {fileID: 732957186}
-  - {fileID: 1903345834}
   - {fileID: 1536106277}
   - {fileID: 2132351312}
   - {fileID: 1808100142}
