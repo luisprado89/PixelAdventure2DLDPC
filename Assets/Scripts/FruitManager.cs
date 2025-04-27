@@ -65,6 +65,7 @@ public class FruitManager : MonoBehaviour
             // Si no es el último nivel, cargar el siguiente nivel
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        
 
     }
 }
