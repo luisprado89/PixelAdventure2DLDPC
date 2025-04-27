@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 2773033381225446564}
   - component: {fileID: 2001665105112952071}
   - component: {fileID: 3879786269046936588}
+  - component: {fileID: 6471022881948904115}
   m_Layer: 0
   m_Name: Cherries
   m_TagString: Untagged
@@ -267,12 +268,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9081523401842957970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fdfc983a41e180409cdd7d7664e2ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 3879786269046936588}
+  clip: {fileID: 0}
 --- !u!82 &3879786269046936588
 AudioSource:
   m_ObjectHideFlags: 0
@@ -280,7 +281,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9081523401842957970}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 25091a0e483d83d4c8c80ce5a2ca9f9d, type: 3}
@@ -370,3 +371,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6471022881948904115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081523401842957970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2287924162f77fc4a8f1fc9f347284e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

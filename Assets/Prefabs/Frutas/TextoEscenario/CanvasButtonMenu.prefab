@@ -1948,7 +1948,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e33bfb8254a4404dae14d364d746b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8323052659230831574}
   optionsPanel: {fileID: 4570806369990298554}
   creditsPanel: {fileID: 2704729232152659604}
   muteButton: {fileID: 4324897806942813609}
@@ -1959,7 +1958,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935938833700994890}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 61af8ea381b7eda4eb9bdff40fbc721c, type: 3}
