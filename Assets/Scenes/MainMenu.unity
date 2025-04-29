@@ -3778,7 +3778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932746909389972065, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7564614716878926084, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: joystick
@@ -3786,7 +3786,7 @@ PrefabInstance:
       objectReference: {fileID: 1732469310}
     - target: {fileID: 7564614716878926084, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3799,7 +3799,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 732957186}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113931587}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee5dfc72f9dc0ae45b6a785e4668ee72, type: 3}
   m_Name: 
@@ -38433,7 +38433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1312289352
 MonoBehaviour:
   m_ObjectHideFlags: 0
