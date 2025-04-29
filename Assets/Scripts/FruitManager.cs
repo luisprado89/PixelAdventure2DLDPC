@@ -9,6 +9,7 @@ public class FruitManager : MonoBehaviour
     public TMP_Text totalFruits;
     public TMP_Text fruitsCollected;
     private int totalFruitsInLevel;
+    public PlayerRespawn playerRespawn; // Referencia al script PlayerRespawn
 
     void Start()
     {
@@ -52,7 +53,8 @@ public class FruitManager : MonoBehaviour
 
     void ChangeScene()
     {
-        
+        // Guardar las vidas actuales del jugador
+        playerRespawn.SaveCurrentLives();
 
         // Verificar si el nivel actual es el último nivel
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 1)
@@ -65,7 +67,5 @@ public class FruitManager : MonoBehaviour
             // Si no es el último nivel, cargar el siguiente nivel
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        
-
     }
 }

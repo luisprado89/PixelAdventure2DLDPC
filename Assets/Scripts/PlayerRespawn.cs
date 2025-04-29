@@ -10,49 +10,66 @@ public class PlayerRespawn : MonoBehaviour
     public Animator animator; // Referencia al componente Animator para reproducir animaciones del jugador
 
     void Start()
-    {
-        // Inicializar el número de vidas según el tamaño del array de corazones
-        if (hearts != null)
-        {
-            life = hearts.Length; // Asignar el número de vidas al tamaño del array
-        }
-        else
-        {
-            Debug.LogWarning("Hearts array is not assigned in the Inspector."); // Advertencia si el array no está asignado
-            life = 0; // Establecer las vidas en 0 si no hay corazones asignados
-        }
+{
+    // Valor predeterminado de vidas (3 vidas)
+    int defaultLives = 3;
 
-        // Verificar si hay un punto de control guardado en PlayerPrefs
-        if (PlayerPrefs.GetFloat("CheckPointPositionX") != 0)
+    // Restaurar las vidas desde PlayerPrefs o establecerlas en el valor predeterminado
+    if (PlayerPrefs.HasKey("CurrentLives"))
+    {
+        life = PlayerPrefs.GetInt("CurrentLives");
+
+        // Si las vidas son 0 (el jugador perdió todas), restablecerlas a 3
+        if (life <= 0)
         {
-            // Mover al jugador a la posición del último punto de control guardado
-            transform.position = new Vector2(PlayerPrefs.GetFloat("CheckPointPositionX"), PlayerPrefs.GetFloat("CheckPointPositionY"));
+            life = defaultLives;
         }
     }
+    else
+    {
+        life = defaultLives; // Si no hay vidas guardadas, usar el valor predeterminado
+    }
+
+    // Activar solo los corazones correspondientes a las vidas actuales
+    for (int i = 0; i < hearts.Length; i++)
+    {
+        hearts[i].SetActive(i < life); // Activar los corazones según el número de vidas restantes
+    }
+
+    // Restaurar la posición del checkpoint si existe
+    if (PlayerPrefs.GetFloat("CheckPointPositionX") != 0)
+    {
+        transform.position = new Vector2(
+            PlayerPrefs.GetFloat("CheckPointPositionX"), // Restaurar la posición X desde PlayerPrefs
+            PlayerPrefs.GetFloat("CheckPointPositionY")  // Restaurar la posición Y desde PlayerPrefs
+        );
+    }
+}
 
     // Método que verifica las vidas restantes y maneja las acciones correspondientes
     private void CheckLife()
+{
+    if (life < 1)
     {
-        if (life < 1)
-        {
-            // Si no quedan vidas, destruir el último corazón, reproducir animación y reiniciar la escena
-            Destroy(hearts[0].gameObject);
-            animator.Play("Hit");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reiniciar la escena actual
-        }
-        else if (life < 2)
-        {
-            // Si queda una vida, destruir el segundo corazón y reproducir animación
-            Destroy(hearts[1].gameObject);
-            animator.Play("Hit");
-        }
-        else if (life < 3)
-        {
-            // Si quedan dos vidas, destruir el tercer corazón y reproducir animación
-            Destroy(hearts[2].gameObject);
-            animator.Play("Hit");
-        }
+        // Si no quedan vidas, reiniciar las vidas a 3 y reiniciar la escena
+        PlayerPrefs.SetInt("CurrentLives", 3); // Restablecer las vidas a 3 en PlayerPrefs
+        Destroy(hearts[0].gameObject); // Destruir el último corazón
+        animator.Play("Hit"); // Reproducir la animación de daño
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reiniciar la escena actual
     }
+    else if (life < 2)
+    {
+        // Si queda una vida, destruir el segundo corazón y reproducir animación
+        Destroy(hearts[1].gameObject);
+        animator.Play("Hit");
+    }
+    else if (life < 3)
+    {
+        // Si quedan dos vidas, destruir el tercer corazón y reproducir animación
+        Destroy(hearts[2].gameObject);
+        animator.Play("Hit");
+    }
+}
 
     // Método que guarda las coordenadas del último punto de control alcanzado
     public void ReachedCheckPoint(float x, float y)
@@ -67,4 +84,9 @@ public class PlayerRespawn : MonoBehaviour
         life--; // Reducir el número de vidas
         CheckLife(); // Verificar las vidas restantes y manejar las acciones correspondientes
     }
+//método para guardar las vidas actuales en PlayerPrefs antes de cambiar de nivel.
+    public void SaveCurrentLives()
+{
+    PlayerPrefs.SetInt("CurrentLives", life); // Guardar las vidas actuales en PlayerPrefs
+}
 }
