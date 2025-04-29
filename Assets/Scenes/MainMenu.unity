@@ -900,6 +900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6912291226533897681, guid: 4abb20b37c3f9504da7ea0e307cfb44d, type: 3}
+      propertyPath: playerMoveJoystick
+      value: 
+      objectReference: {fileID: 732957187}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5317,6 +5321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6912291226533897681, guid: 4abb20b37c3f9504da7ea0e307cfb44d, type: 3}
+      propertyPath: playerMoveJoystick
+      value: 
+      objectReference: {fileID: 732957187}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40224,6 +40232,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6912291226533897681, guid: 4abb20b37c3f9504da7ea0e307cfb44d, type: 3}
+      propertyPath: playerMoveJoystick
+      value: 
+      objectReference: {fileID: 732957187}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

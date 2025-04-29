@@ -19,6 +19,11 @@ public class PlayerMoveJoystick : MonoBehaviour
     public SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer para voltear el sprite
     public Animator animator; // Referencia al Animator para controlar las animaciones
 
+    // Propiedad para obtener el valor del eje vertical del joystick
+    public float Vertical
+    {
+        get { return joystick.Vertical; } // Devuelve el valor del eje vertical del joystick
+    }
     void Start()
     {
         // Obtener el componente Rigidbody2D del jugador
