@@ -3786,7 +3786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932746909389972065, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6932746909389972065, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: doubleJumpSpeed
@@ -3798,7 +3798,7 @@ PrefabInstance:
       objectReference: {fileID: 1732469310}
     - target: {fileID: 7564614716878926084, guid: 69b4d0c87a1f1d84ea08947da6c00ad1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3811,7 +3811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 732957186}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113931587}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee5dfc72f9dc0ae45b6a785e4668ee72, type: 3}
   m_Name: 
@@ -5270,9 +5270,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Controles t\xE1ctiles:\r\n    Moverte izquierda/derecha: Usa el joystick
-    virtual\r\n    Saltar: Pulsa el bot\xF3n de salto\r\n    Atravesar plataformas
-    hacia abajo:  Desliza el joystick hacia abajo"
+  m_text: "Controles:\r\n    Izquierda/Derecha: A / D o \u2190 / \u2192\r\n    Saltar:
+    Barra espaciadora\r\n    Atravesar plataformas hacia abajo: S"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5299,8 +5298,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 37
+  m_fontSizeBase: 37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -38587,7 +38586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1312289352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42807,6 +42806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1157505612553343448, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3193072268665367319, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -42886,6 +42889,18 @@ PrefabInstance:
     - target: {fileID: 3193072268665367319, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237373661800293634, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395754226666943894, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554083481917222593, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 37.000008
       objectReference: {fileID: 0}
     - target: {fileID: 6824643271500782578, guid: a4fb8beb0d7fbc641b56ad2e7e7b1d7d, type: 3}
       propertyPath: m_Name
